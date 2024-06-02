@@ -51,7 +51,18 @@ body {
 a:hover {
     scale: 1.05;
 }
-
+button {
+    margin-top: 20px;
+    border: none;
+    background: none;
+    &:hover {
+        scale: 1.2;
+        cursor: pointer;
+    }
+    img {
+        width: 200px;
+    }
+}
 @media screen and (max-width: 576px) {
     .main-info,
     .contact_info_container {
@@ -270,4 +281,7 @@ a:hover {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+.hobbies {
+    text-align: center;
 }
