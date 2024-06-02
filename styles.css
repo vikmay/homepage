@@ -245,7 +245,7 @@ body {
 .additional-info__education-university-speciality {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .additional-info__education-university-name {
