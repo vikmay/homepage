@@ -48,6 +48,9 @@ body {
     padding-bottom: 30px;
     margin-bottom: 15px;
 }
+a:hover {
+    scale: 1.05;
+}
 
 @media screen and (max-width: 576px) {
     .main-info,
@@ -90,7 +93,7 @@ body {
 .contact-info__block {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .contact-info__block--center {
@@ -102,10 +105,13 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: start;
+    span {
+        margin-top: 6px;
+    }
 }
 
 .contact-info__item:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .contact-info__item-icon-wrapper {
